@@ -56,6 +56,6 @@ int main()
     std::cout << Find("HOlO", "l", Case::INSENSITIVE) << std::endl;
     std::cout << Find("HOlO", "a", Case::INSENSITIVE) << std::endl;
     std::cout << Find("HolA", "A", Case::SENSITIVE) << std::endl;
-    std::cout << Find("HolA", "i", Case::SENSITIVE) << std::endl;
+    std::cout << Find("HolA", "a", Case::SENSITIVE) << std::endl;
     return 0;
 }
