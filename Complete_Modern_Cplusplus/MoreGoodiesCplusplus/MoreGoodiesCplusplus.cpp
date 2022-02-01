@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 
 std::string ToUpper(const std::string &str)
 {
@@ -42,6 +43,40 @@ size_t Find(
     }
 }
 
+std::vector<int> FindAll(
+ const std::string &target,             
+ const std::string &search_string,      
+ Case searchCase = Case::INSENSITIVE,   
+ size_t offset = 0) {
+     auto result = std::vector<int>{};
+     auto current_offset = offset;
+     std::string target_copy = target;
+     std::string search_string_copy = search_string;
+     switch(searchCase)
+     {
+     case Case::SENSITIVE:
+        break;
+     default:
+         target_copy = ToLower(target);
+         search_string_copy = ToLower(search_string);
+         break;
+     }
+    while(current_offset < target.length())
+    {
+        const auto index = target_copy.find(search_string_copy, current_offset);
+        if(index < target.length()){
+            result.push_back(index);
+            current_offset = index + 1;
+        }
+        else
+        {
+            current_offset = index;
+        }
+    }
+
+    return result;
+}
+
 
 int main()
 {
@@ -52,10 +87,32 @@ int main()
     std::cout << ToUpper(nullptr) << std::endl;
     std::cout << ToLower(nullptr) << std::endl;*/
 
-    std::cout << Find("Hola", "h") << std::endl;
+    /*std::cout << Find("Hola", "h") << std::endl;
     std::cout << Find("HOlO", "l", Case::INSENSITIVE) << std::endl;
     std::cout << Find("HOlO", "a", Case::INSENSITIVE) << std::endl;
     std::cout << Find("HolA", "A", Case::SENSITIVE) << std::endl;
-    std::cout << Find("HolA", "a", Case::SENSITIVE) << std::endl;
+    std::cout << Find("HolA", "a", Case::SENSITIVE) << std::endl;*/
+
+    auto indexArray = FindAll("Hosdfao", "o");
+    std::cout << "Hosdfao -> " ;
+    for(auto index:indexArray)
+        std::cout << index << " ";
+    std::cout << std::endl;
+
+    std::cout << "HOdfa -> ";
+    auto indexArray2 = FindAll("HOdfa","O",Case::SENSITIVE);
+    for(auto index: indexArray2)
+    {
+        std::cout << index << " ";
+    }
+    std::cout << std::endl;
+    
+    std::cout << "HOdfa -> ";
+        auto indexArray3 = FindAll("HOdfa","e");
+        for(auto index: indexArray3)
+        {
+            std::cout << index << " ";
+        }
+        std::cout << std::endl;
     return 0;
 }
