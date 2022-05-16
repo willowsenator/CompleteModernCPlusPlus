@@ -4,14 +4,14 @@
 #include <utility>
 
 
-Checking::Checking(std::string _name, const float _balance): Account(std::move(_name), _balance)
+Checking::Checking(std::string name, const float balance): Account(std::move(name), balance)
 {
 }
 
 Checking::~Checking()
 = default;
 
-void Checking::withdraw(float amount)
+void Checking::withdraw(const float amount)
 {
     if(balance_ - amount >= 50)
     {
