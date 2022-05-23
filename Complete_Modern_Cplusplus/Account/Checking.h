@@ -4,7 +4,7 @@
 class Checking:public Account
 {
 public:
-    Checking(std::string name, float balance);
+    using Account::Account;
     ~Checking();
     void withdraw(float amount);
 };
