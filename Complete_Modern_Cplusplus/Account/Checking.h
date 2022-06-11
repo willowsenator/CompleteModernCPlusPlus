@@ -5,6 +5,6 @@ class Checking:public Account
 {
 public:
     using Account::Account;
-    ~Checking();
-    void withdraw(float amount);
+    ~Checking() override;
+    void withdraw(float amount) override;
 };
