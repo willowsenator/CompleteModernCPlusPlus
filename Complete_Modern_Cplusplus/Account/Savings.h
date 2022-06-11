@@ -8,6 +8,6 @@ public:
     Savings(std::string name, float balance, float rate);
     ~Savings() override;
 
-    float get_interest_rate() const;
+    float get_interest_rate() const override;
     void accumulate_interest() override;
 };

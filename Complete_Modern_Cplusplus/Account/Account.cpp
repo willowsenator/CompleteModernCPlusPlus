@@ -46,7 +46,7 @@ void Account::deposit(const float amount)
     balance_ += amount;
 }
 
-float Account::get_interest_rate()
+float Account::get_interest_rate() const
 {
     return 0.0f;
 }

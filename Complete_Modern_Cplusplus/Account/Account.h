@@ -18,5 +18,5 @@ public:
     virtual void accumulate_interest();
     virtual void withdraw(float amount);
     void deposit(float amount);
-    virtual float get_interest_rate();
+    virtual float get_interest_rate() const;
 };
