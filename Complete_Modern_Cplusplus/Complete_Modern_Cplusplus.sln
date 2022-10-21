@@ -6,7 +6,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Account", "Account\Account.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LiteralStrings", "LiteralStrings\LiteralStrings.vcxproj", "{E821A006-C5D4-40A0-A430-EFEB29299AC0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileIOBasics", "FileBasicsIO\FileIOBasics.vcxproj", "{9BB68BD9-001E-4FAA-9709-93FC22A1F724}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileIOBasics", "FileIOBasics\FileIOBasics.vcxproj", "{9BB68BD9-001E-4FAA-9709-93FC22A1F724}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileIOBinary", "FileIOBinary\FileIOBinary.vcxproj", "{C1EDD663-4E45-4C41-BAD8-1A9A01FA02D6}"
 EndProject
