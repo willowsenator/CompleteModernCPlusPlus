@@ -1,7 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=5f5cbd40_002D5672_002D426a_002D9618_002D135e110ff444_0023MoreGoodiesCplusplus/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=9bb68bd9_002D001e_002D4faa_002D9709_002D93fc22a1f724_0023FileIOBasics/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=b2b0291e_002D3f57_002D4797_002Dab3d_002D6f52f7b6efae_0023CopyBinaryFiles/@EntryIndexedValue">True</s:Boolean>
+	
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=b45e4411_002D71bb_002D4ef3_002D9013_002D6dec4db55829_0023Account/@EntryIndexedValue">True</s:Boolean>
+	
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=c1edd663_002D4e45_002D4c41_002Dbad8_002D1a9a01fa02d6_0023FileIOBinary/@EntryIndexedValue">True</s:Boolean>
 	
 	
