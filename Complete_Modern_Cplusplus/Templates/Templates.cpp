@@ -9,8 +9,8 @@ T add(T a, T b)
     return a + b;
 }
 
-template <typename T>
-T arraySum(const T *pArr, size_t arrSize)
+template <typename T,  size_t arrSize>
+T arraySum(const T(&pArr)[arrSize])
 {
     T result = 0;
     
@@ -22,8 +22,8 @@ T arraySum(const T *pArr, size_t arrSize)
     return result;
 }
 
-template <typename T>
-T max(const T *pArr, size_t arrSize)
+template <typename T,  size_t arrSize>
+T max(const T(&pArr)[arrSize])
 {
     T result = 0;
     for(size_t i = 0; i < arrSize; i++){
@@ -40,8 +40,9 @@ T max(const T *pArr, size_t arrSize)
     return result;
 }
 
-template <typename T>
-std::pair<T, T> minMax(const T *pArr, size_t arrSize)
+
+template <typename T, size_t arrSize>
+std::pair<T, T> minMax(const T(&pArr)[arrSize])
 {
     T min = 0;
     T max = 0;
@@ -79,23 +80,23 @@ int main()
     std::cout << num2 << std::endl;
 
     int array1[]{1, -2, 3, 5};
-    auto arraySum1 = arraySum(array1, 4);
+    auto arraySum1 = arraySum(array1);
     std::cout << arraySum1 << std::endl;
 
     float array2[] {2.3f, -4.6f, -5.6f};
-    auto arraySum2 = arraySum(array2, 3);
+    auto arraySum2 = arraySum(array2);
     std::cout << arraySum2 << std::endl;
 
-    auto arrayMax1 = max(array1, 4);
+    auto arrayMax1 = max(array1);
     std::cout << arrayMax1 << std::endl;
     
-    auto arrayMax2 = max(array2, 3);
+    auto arrayMax2 = max(array2);
     std::cout << arrayMax2 << std::endl;
 
-    auto arrayMinMax1 = minMax(array1, 4);
+    auto arrayMinMax1 = minMax(array1);
     std::cout << arrayMinMax1.first << ":" << arrayMinMax1.second << std::endl;
     
-    auto arrayMinMax2 = minMax(array2, 3);
+    auto arrayMinMax2 = minMax(array2);
     std::cout << arrayMinMax2.first << ":" << arrayMinMax2.second << std::endl;
     
     return 0;
