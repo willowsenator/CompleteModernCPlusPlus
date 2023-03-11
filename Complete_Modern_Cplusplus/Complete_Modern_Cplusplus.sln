@@ -18,6 +18,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Templates_Forwarding_Variad
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Templates_Explicit_Specialization", "Templates_Explicit_Specialization\Templates_Explicit_Specialization.vcxproj", "{4AA358A7-876A-4B82-BFC9-EA81F4D0E673}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Callbacks_FunctionPointers", "Callbacks_FunctionPointers\Callbacks_FunctionPointers.vcxproj", "{0E8A82E8-30DE-4363-9CCA-5603ADCD6DF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{4AA358A7-876A-4B82-BFC9-EA81F4D0E673}.Debug|Any CPU.Build.0 = Debug|Win32
 		{4AA358A7-876A-4B82-BFC9-EA81F4D0E673}.Release|Any CPU.ActiveCfg = Release|Win32
 		{4AA358A7-876A-4B82-BFC9-EA81F4D0E673}.Release|Any CPU.Build.0 = Release|Win32
+		{0E8A82E8-30DE-4363-9CCA-5603ADCD6DF0}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{0E8A82E8-30DE-4363-9CCA-5603ADCD6DF0}.Debug|Any CPU.Build.0 = Debug|Win32
+		{0E8A82E8-30DE-4363-9CCA-5603ADCD6DF0}.Release|Any CPU.ActiveCfg = Release|Win32
+		{0E8A82E8-30DE-4363-9CCA-5603ADCD6DF0}.Release|Any CPU.Build.0 = Release|Win32
 	EndGlobalSection
 EndGlobal
