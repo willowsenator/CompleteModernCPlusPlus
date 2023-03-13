@@ -20,6 +20,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Templates_Explicit_Speciali
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Callbacks_FunctionPointers", "Callbacks_FunctionPointers\Callbacks_FunctionPointers.vcxproj", "{0E8A82E8-30DE-4363-9CCA-5603ADCD6DF0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Callbacks_FunctionObjects", "Callbacks_FunctionObjects\Callbacks_FunctionObjects.vcxproj", "{2AC6EDD9-BD98-42F8-BF75-C22848C954ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{0E8A82E8-30DE-4363-9CCA-5603ADCD6DF0}.Debug|Any CPU.Build.0 = Debug|Win32
 		{0E8A82E8-30DE-4363-9CCA-5603ADCD6DF0}.Release|Any CPU.ActiveCfg = Release|Win32
 		{0E8A82E8-30DE-4363-9CCA-5603ADCD6DF0}.Release|Any CPU.Build.0 = Release|Win32
+		{2AC6EDD9-BD98-42F8-BF75-C22848C954ED}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{2AC6EDD9-BD98-42F8-BF75-C22848C954ED}.Debug|Any CPU.Build.0 = Debug|Win32
+		{2AC6EDD9-BD98-42F8-BF75-C22848C954ED}.Release|Any CPU.ActiveCfg = Release|Win32
+		{2AC6EDD9-BD98-42F8-BF75-C22848C954ED}.Release|Any CPU.Build.0 = Release|Win32
 	EndGlobalSection
 EndGlobal
