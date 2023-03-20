@@ -26,6 +26,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LamddaExpressions", "Lamdda
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LambdaExpressionsCaptureList", "LambdaExpressionsCaptureList\LambdaExpressionsCaptureList.vcxproj", "{3298EB5F-E6F6-4283-A1B9-DC050BD65C88}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LambdaExpressionsAssignment", "LambdaExpressionsAssignment\LambdaExpressionsAssignment.vcxproj", "{D554F606-5E0F-4B93-BEDA-56E63A624B3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{3298EB5F-E6F6-4283-A1B9-DC050BD65C88}.Debug|Any CPU.Build.0 = Debug|Win32
 		{3298EB5F-E6F6-4283-A1B9-DC050BD65C88}.Release|Any CPU.ActiveCfg = Release|Win32
 		{3298EB5F-E6F6-4283-A1B9-DC050BD65C88}.Release|Any CPU.Build.0 = Release|Win32
+		{D554F606-5E0F-4B93-BEDA-56E63A624B3A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{D554F606-5E0F-4B93-BEDA-56E63A624B3A}.Debug|Any CPU.Build.0 = Debug|Win32
+		{D554F606-5E0F-4B93-BEDA-56E63A624B3A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{D554F606-5E0F-4B93-BEDA-56E63A624B3A}.Release|Any CPU.Build.0 = Release|Win32
 	EndGlobalSection
 EndGlobal
