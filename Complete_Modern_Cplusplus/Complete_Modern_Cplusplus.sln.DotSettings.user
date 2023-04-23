@@ -1,10 +1,17 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Hierarchy/Build/BuildTool/CustomBuildToolPath/@EntryValue">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe</s:String>
+	
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=0e8a82e8_002D30de_002D4363_002D9cca_002D5603adcd6df0_0023Callbacks_005FFunctionPointers/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=2ac6edd9_002Dbd98_002D42f8_002Dbf75_002Dc22848c954ed_0023Callbacks_005FFunctionObjects/@EntryIndexedValue">True</s:Boolean>
-	
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=3298eb5f_002De6f6_002D4283_002Da1b9_002Ddc050bd65c88_0023LambdaExpressionsCaptureList/@EntryIndexedValue">True</s:Boolean>
-	
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=4aa358a7_002D876a_002D4b82_002Dbfc9_002Dea81f4d0e673_0023Templates_005FExplicit_005FSpecialization/@EntryIndexedValue">True</s:Boolean>
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -14,26 +21,45 @@
 	
 	
 	
+	
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=9bb68bd9_002D001e_002D4faa_002D9709_002D93fc22a1f724_0023FileIOBasics/@EntryIndexedValue">True</s:Boolean>
+	
+	
+	
+	
+	
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=b1f2f73b_002D76bd_002D4391_002Db2d6_002D98a8148c59b9_0023Templates_005FForwarding_005FVariadic/@EntryIndexedValue">True</s:Boolean>
-	
-	
-	
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=b2b0291e_002D3f57_002D4797_002Dab3d_002D6f52f7b6efae_0023CopyBinaryFiles/@EntryIndexedValue">True</s:Boolean>
-	
-	
-	
-	
-	
-	
-	
-	
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=b45e4411_002D71bb_002D4ef3_002D9013_002D6dec4db55829_0023Account/@EntryIndexedValue">True</s:Boolean>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=bdebfb2c_002Dcb42_002D4bb1_002D8e47_002Dce1e4b138460_0023LamddaExpressions/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=c1edd663_002D4e45_002D4c41_002Dbad8_002D1a9a01fa02d6_0023FileIOBinary/@EntryIndexedValue">True</s:Boolean>
 	
 	
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=d554f606_002D5e0f_002D4b93_002Dbeda_002D56e63a624b3a_0023LambdaExpressionsAssignment/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=e821a006_002Dc5d4_002D40a0_002Da430_002Defeb29299ac0_0023LiteralStrings/@EntryIndexedValue">True</s:Boolean>
+	
+	
+	
+	
+	
+	
 	
 	
 	
