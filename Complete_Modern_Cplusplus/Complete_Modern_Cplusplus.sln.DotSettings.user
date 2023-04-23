@@ -1,5 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/Hierarchy/Build/BuildTool/CustomBuildToolPath/@EntryValue">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe</s:String>
+	<s:String x:Key="/Default/Environment/Hierarchy/Build/BuildTool/CustomBuildToolPath/@EntryValue">C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe</s:String>
+	<s:Int64 x:Key="/Default/Environment/Hierarchy/Build/BuildTool/MsbuildVersion/@EntryValue">1114112</s:Int64>
+	<s:Boolean x:Key="/Default/Environment/Hierarchy/Build/BuildTool/RecentBuildToolPaths/=C_003A_005CProgram_0020Files_005CMicrosoft_0020Visual_0020Studio_005C2022_005CCommunity_005CMSBuild_005CCurrent_005CBin_005CMicrosoft_002EBuild_002Edll/@EntryIndexedValue">True</s:Boolean>
+	
+	
+	
+	
+	
 	
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=0e8a82e8_002D30de_002D4363_002D9cca_002D5603adcd6df0_0023Callbacks_005FFunctionPointers/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=2ac6edd9_002Dbd98_002D42f8_002Dbf75_002Dc22848c954ed_0023Callbacks_005FFunctionObjects/@EntryIndexedValue">True</s:Boolean>
@@ -48,12 +55,15 @@
 	
 	
 	
+	
+	
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=bdebfb2c_002Dcb42_002D4bb1_002D8e47_002Dce1e4b138460_0023LamddaExpressions/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=c1edd663_002D4e45_002D4c41_002Dbad8_002D1a9a01fa02d6_0023FileIOBinary/@EntryIndexedValue">True</s:Boolean>
 	
 	
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=d554f606_002D5e0f_002D4b93_002Dbeda_002D56e63a624b3a_0023LambdaExpressionsAssignment/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=e821a006_002Dc5d4_002D40a0_002Da430_002Defeb29299ac0_0023LiteralStrings/@EntryIndexedValue">True</s:Boolean>
+	
 	
 	
 	

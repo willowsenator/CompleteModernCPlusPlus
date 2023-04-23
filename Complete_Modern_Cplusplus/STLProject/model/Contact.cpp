@@ -1,6 +1,17 @@
 ﻿#include "Contact.h"
 
 #include <iostream>
+Contact::Contact()
+{
+    first_name_ = "";
+    last_name_ = "";
+    first_phone_number_ = "";
+    second_phone_number_ = "";
+    email_ = "";
+    address_ = "";
+    company_ = "";
+    group_ = group::family;
+}
 
 Contact::Contact(std::string first_name, std::string last_name, std::string first_phone_number,
                  std::string second_phone_number, std::string email, std::string address,
@@ -46,18 +57,6 @@ std::string Contact::get_company() const
 Contact::group Contact::get_group() const
 {
     return group_;
-}
-
-constexpr const char* Contact::group_to_string(const group group) noexcept
-{
-    switch (group)
-    {
-    case group::acquaintance: return "Acquaintance";
-    case group::coworker: return "CoWorker";
-    case group::family: return "Family";
-    case group::friends: return "Friends";
-    }
-    return nullptr;
 }
 
 void Contact::display() const
