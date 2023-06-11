@@ -18,3 +18,4 @@
 /Concurrency/launch_policies/launch_policies
 /Concurrency/promise/promise_future
 /Concurrency/propagate_exceptions/propagate_exceptions
+/Concurrency/propagate_exceptions_thread/propagate_exceptions_thread
