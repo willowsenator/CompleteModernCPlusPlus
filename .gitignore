@@ -15,3 +15,6 @@
 /Concurrency/mutex/mutex_synchronization
 /Concurrency/thread_functions/thread_functions
 /Concurrency/high_level_concurrency/high_level_concurrency
+/Concurrency/launch_policies/launch_policies
+/Concurrency/promise/promise_future
+/Concurrency/propagate_exceptions/propagate_exceptions
