@@ -13,3 +13,5 @@
 /Complete_Modern_Cplusplus/Account/Debug/
 /Concurrency/basics/thread_basics
 /Concurrency/mutex/mutex_synchronization
+/Concurrency/thread_functions/thread_functions
+/Concurrency/high_level_concurrency/high_level_concurrency
