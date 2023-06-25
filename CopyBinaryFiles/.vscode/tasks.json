@@ -9,8 +9,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/target/${fileBasenameNoExtension}",
-                "-pthread"
+                "${fileDirname}/target/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${fileDirname}"
