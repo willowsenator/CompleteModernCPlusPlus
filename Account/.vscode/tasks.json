@@ -5,12 +5,10 @@
             "label": "C/C++: g++ build active file",
             "command": "/usr/bin/g++",
             "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "${file}",
+                "-std=c++17",
                 "-o",
-                "${fileDirname}/target/${fileBasenameNoExtension}",
-                "-pthread"
+                "${fileDirname}/target/Account",
+                "${fileDirname}/*.cpp"
             ],
             "options": {
                 "cwd": "${fileDirname}"

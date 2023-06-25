@@ -6,11 +6,9 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
-                "-g",
-                "${file}",
+                "${fileDirname}/*.cpp",
                 "-o",
-                "${fileDirname}/target/${fileBasenameNoExtension}",
-                "-pthread"
+                "${fileDirname}/target/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${fileDirname}"

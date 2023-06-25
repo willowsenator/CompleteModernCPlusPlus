@@ -6,11 +6,11 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
-                "-g",
                 "${file}",
+                "${fileDirname}/model/*.cpp",
+                "-std=c++20",
                 "-o",
-                "${fileDirname}/target/${fileBasenameNoExtension}",
-                "-pthread"
+                "${fileDirname}/target/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${fileDirname}"
