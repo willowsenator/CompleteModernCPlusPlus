@@ -17,5 +17,7 @@ Concurrency/launch_policies/target/
 Concurrency/promise/target/
 Concurrency/propagate_exceptions/target/
 Concurrency/propagate_exceptions_thread/target/
-"C++17 Core features"/attributes/target/
-"C++17 Core features"/feature_test_macros/target/
+C++17_core_features"/attributes/target/
+C++17_core_features"/feature_test_macros/target/
+C++17_core_features/if_initialization_switch/target/
+C++17_core_features/inline_variables/target/
