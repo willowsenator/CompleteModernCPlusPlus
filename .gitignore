@@ -21,3 +21,6 @@ C++17_core_features"/attributes/target/
 C++17_core_features"/feature_test_macros/target/
 C++17_core_features/if_initialization_switch/target/
 C++17_core_features/inline_variables/target/
+C++17_core_features/no_except/target/
+C++17_core_features/constexpr_lambda/target/
+C++17_core_features/binding_structures/target/
