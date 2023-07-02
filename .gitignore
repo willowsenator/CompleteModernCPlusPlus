@@ -17,10 +17,14 @@ Concurrency/launch_policies/target/
 Concurrency/promise/target/
 Concurrency/propagate_exceptions/target/
 Concurrency/propagate_exceptions_thread/target/
-C++17_core_features"/attributes/target/
-C++17_core_features"/feature_test_macros/target/
+C++17_core_features/attributes/target/
+C++17_core_features/feature_test_macros/target/
 C++17_core_features/if_initialization_switch/target/
 C++17_core_features/inline_variables/target/
 C++17_core_features/no_except/target/
 C++17_core_features/constexpr_lambda/target/
 C++17_core_features/binding_structures/target/
+C++17_template_features/class_template_argument_deduction/target/
+C++17_template_features/compile_time_if/target/
+C++17_template_features/folding_expressions/target/
+C++17_template_features/type_traits_suffixes/target/
